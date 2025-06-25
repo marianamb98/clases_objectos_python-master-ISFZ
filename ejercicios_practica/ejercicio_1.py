@@ -36,6 +36,8 @@ if __name__ == "__main__":
     # Almacene el puntaje obtenido del método
     # en una variable llamada "puntaje"
     puntaje = jugador1.obtener_puntaje()
+    # Este valor de puntaje debe ser 125
+    # Ya que hemos agregado 100 y 25 puntos
     
     # Imprimir en pantalla la variable "puntaje"
     print("Puntaje del jugador:", puntaje)
