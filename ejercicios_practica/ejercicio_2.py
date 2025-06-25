@@ -25,7 +25,7 @@ if __name__ == "__main__":
     # Ver los ejemplos a continuación de lo que
     # se espera al utilizar el método:
 
-    jugador1 = Jugador("Laura")
+    jugador1 = Jugador("Alejandro Fabian")
 
     # Este valor de puntaje debe ser 0
     # Ya que es el valor inicial y no hemos
@@ -50,4 +50,4 @@ if __name__ == "__main__":
     print("Nuevo puntaje del jugador:", puntaje)
 
 
-    print("terminamos")
+    print("Ejercicio Finalizado.")
