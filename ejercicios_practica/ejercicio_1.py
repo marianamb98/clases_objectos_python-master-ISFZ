@@ -21,14 +21,15 @@ if __name__ == "__main__":
     # 1) Deberá crear un jugador (un variable) a partir de esta clase
     # Al momento de crear el objeto debe indicar un nombre
     # para el jugador
-
-
+    
+    jugador1 = Jugador("Alejandro Fabian")
+        
     # 2) Utilice el método "obtener_puntaje"
     # para leer el puntaje actual del jugador
     # Almacene el puntaje obtenido del método
     # en una variable llamada "puntaje"
-    
+    puntaje = jugador1.obtener_puntaje()
     
     # Imprimir en pantalla la variable "puntaje"
-
+    print("Puntaje del jugador:", puntaje)
     print("terminamos")
