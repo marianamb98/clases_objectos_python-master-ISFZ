@@ -8,6 +8,11 @@ class Jugador():
     def obtener_puntaje(self):
         return self.puntaje
 
+    def cargar_puntaje(self, nuevo_puntaje):
+        self.puntaje = nuevo_puntaje
+
+    def sumar_puntaje(self, puntos):
+        self.puntaje += puntos
 
 if __name__ == "__main__":
     print("Comencemos a practicar con objetos")
@@ -23,6 +28,8 @@ if __name__ == "__main__":
     # para el jugador
     
     jugador1 = Jugador("Alejandro Fabian")
+    jugador1.cargar_puntaje(100)
+    jugador1.sumar_puntaje(25)
         
     # 2) Utilice el método "obtener_puntaje"
     # para leer el puntaje actual del jugador
@@ -32,4 +39,4 @@ if __name__ == "__main__":
     
     # Imprimir en pantalla la variable "puntaje"
     print("Puntaje del jugador:", puntaje)
-    print("terminamos")
+    print("Ejercicio Finalizado.")
